@@ -1,6 +1,5 @@
 matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 soma = somat = maior = 0
-
 for li in range(0, 3):
     for c in range(0, 3):
         matrix[li][c] = int(input(f'Insira um valor para posição [{li}, {c}]: '))
