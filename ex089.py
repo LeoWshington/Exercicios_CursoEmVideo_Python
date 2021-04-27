@@ -24,7 +24,7 @@ for c in range(0, cont):
     print(c, end='   ')
     for co in range(0, 2):
         if aluno_media[c][co] == aluno_media[c][1]:
-            print(f'{aluno_media[c][co] :>8}')
+            print(f'{aluno_media[c][co] :>8.1f}')
         else:
             print(f'{aluno_media[c][co] :^7}', end='')
 while True:
