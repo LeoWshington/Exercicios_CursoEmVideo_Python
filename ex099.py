@@ -10,7 +10,8 @@ def maior(* num):
             print(f'{valor} ', end='')
             valores.append(valor)
             sleep(0.5)
-        print(f'Foram informados {len(valores)} valores.\nO maior valor informado foi {max(valores)}.')
+        print(f'Foram informados {len(valores)} valores.\n'
+              f'O maior valor informado foi {max(valores)}.')
         print('==' * 30)
         valores.clear()
     else:
