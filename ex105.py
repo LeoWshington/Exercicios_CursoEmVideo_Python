@@ -22,3 +22,4 @@ def notas(*nota, sit=False):
 
 resp = notas(5.5, 9.5, 10, 6.5, sit=True)
 print(resp)
+ 
