@@ -6,7 +6,7 @@ def resumo(valor, aumento=0, deducao=0):
           f'Dobro do preço: \t{moeda(dobro(valor))}\n'
           f'Metade do preço:\t{moeda(metade(valor))}\n'
           f'80% de aumento: \t{moeda(aumentar(valor, aumento))}\n'
-          f'35% de aumento: \t{moeda(diminuir(valor, deducao))}')
+          f'35% de desconto: \t{moeda(diminuir(valor, deducao))}')
 
 
 def moeda(valor):
